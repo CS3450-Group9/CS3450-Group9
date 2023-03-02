@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # created apps
     'UserAuth.apps.UserauthConfig',
+    'Customer.apps.CustomerConfig',
+    'Employee.apps.EmployeeConfig',
+    'Manager.apps.ManagerConfig',
 ]
 
 MIDDLEWARE = [
@@ -130,5 +133,5 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Redirect urls
-LOGIN_REDIRECT_URL =   '/home'
-LOGOUT_REDIRECT_URL =   '/login'
+LOGIN_REDIRECT_URL =  '/home'
+LOGOUT_REDIRECT_URL = '/login'
