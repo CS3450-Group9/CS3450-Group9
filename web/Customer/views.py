@@ -8,3 +8,6 @@ from django.urls import reverse
 def carRetrivalForm(request):
     
     return render(request, 'Customer/carRetrivalForm.html')
+
+def helpOTW(request):
+    return render(request, 'Customer/helpOTW.html')
